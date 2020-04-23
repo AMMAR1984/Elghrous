@@ -32,7 +32,7 @@ then
 elif [ $g -eq 2 ]
 then
     echo '==>''total'         '==>'   $b'==>'       $e' ==>'      $d '==>' $f>> $dealer
-    clear; cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer
     break
@@ -73,7 +73,7 @@ then
     i1=`expr $e + $e1 `
     j1=`expr $f + $f1 `
     echo '==>' 'total'          '==>'   $h1 '==>'       $i1' ==>'          '==>' $j1 >> $dealer 
-    clear;cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer  
     break
@@ -113,7 +113,7 @@ then
     i2=`expr $e + $e1 + $e2 `
     j2=`expr $f + $f1 + $f2 `
     echo '==>' 'total'          '==>'   $h2 '==>'       $i2' ==>'          '==>' $j2 >> $dealer
-    clear;cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer
     break
@@ -153,7 +153,7 @@ then
     i3=`expr $e + $e1 + $e2 + $e3`
     j3=`expr $f + $f1 + $f2 + $f3`
     echo '==>' 'total'          '==>'   $h3 '==>'       $i3' ==>'          '==>' $j3 >> $dealer
-    clear;cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer
     break
@@ -195,7 +195,7 @@ then
     i3=`expr $e + $e1 + $e2 + $e3 +$e4`
     j3=`expr $f + $f1 + $f2 + $f3 +$f4`
     echo '==>' 'total'          '==>'   $h4 '==>'       $i4' ==>'          '==>' $j4 >> $dealer
-    clear;cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer
     break
@@ -235,7 +235,7 @@ then
     i5=`expr $e + $e1 + $e2 + $e3 + $e4 + $e5`
     j5=`expr $f + $f1 + $f2 + $f3 + $f4 + $f5`
     echo '==>' 'total'          '==>'   $h5 '==>'       $i5' ==>'          '==>' $j5 >> $dealer
-    clear;cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer
     break
@@ -275,7 +275,7 @@ then
     i6=`expr $e + $e1 + $e2 + $e3 + $e4 + $e5 + $e6`
     j6=`expr $f + $f1 + $f2 + $f3 + $f4 + $f5 + $f6`
     echo '==>' 'total'          '==>'   $h6 '==>'       $i6' ==>'          '==>' $j6 >> $dealer
-    clear;cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer
     break
@@ -316,7 +316,7 @@ then
     i7=`expr $e + $e1 + $e2 + $e3 + $e4 + $e5 + $e6 + $e7`
     j7=`expr $f + $f1 + $f2 + $f3 + $f4 + $f5 + $f6 + $f7`
     echo '==>' 'total'          '==>'   $h7 '==>'       $i7' ==>'          '==>' $j7 >> $dealer
-    clear;cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer
     break
@@ -356,7 +356,7 @@ then
     i8=`expr $e + $e1 + $e2 + $e3 + $e4 + $e5 + $e6 + $e7 + $e8`
     j8=`expr $f + $f1 + $f2 + $f3 + $f4 + $f5 + $f6 + $f7 + $f8`
     echo '==>' 'total'          '==>'   $h8 '==>'       $i8' ==>'          '==>' $j8 >> $dealer
-    clear;cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer
     break
@@ -397,7 +397,7 @@ then
     i9=`expr $e + $e1 + $e2 + $e3 + $e4 + $e5 + $e6 + $e7 + $e8 + $e9`
     j9=`expr $f + $f1 + $f2 + $f3 + $f4 + $f5 + $f6 + $f7 + $f8 + $f9`
     echo '==>' 'total'          '==>'   $h9 '==>'       $i9' ==>'          '==>' $j9 >> $dealer
-    clear;cat $dealer
+    clear;date; cat $dealer
     cp $dealer /sdcard
     rm $dealer
     break
@@ -431,7 +431,7 @@ h10=`expr $b + $b1 + $b2 + $b3 + $b4 + $b5 + $b6 + $b7 + $b8 + $b9 + $b10`
 i10=`expr $e + $e1 + $e2 + $e3 + $e4 + $e5 + $e6 + $e7 + $e8 + $e9 + $e10`
 j10=`expr $f + $f1 + $f2 + $f3 + $f4 + $f5 + $f6 + $f7 + $f8 + $f9 + $f10`
 echo '==>' 'total'          '==>'   $h10 '==>'       $i10' ==>'          '==>' $j10 >> $dealer
-clear;cat $dealer
+clear;date; cat $dealer
 
 cp $dealer /sdcard
 rm $dealer
